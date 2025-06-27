@@ -18,7 +18,7 @@ with st.form("form"):
         st.subheader(f"Race {race_num}")
         
         # Create 15 back/lay odds inputs for each race
-        for i in range(1, 16):
+        for i in range(1, 26):
             col1, col2 = st.columns(2)
             with col1:
                 if i == 1:
